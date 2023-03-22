@@ -2,10 +2,12 @@
 
 ## CoinCap iOS Client
 
+
 ## Development
 
-1. Install SwiftLint and SwiftGen with Homebrew.
-2. You are done
+1. iOS 12+, Swift 5.5+
+2. Install SwiftLint and SwiftGen with Homebrew.
+3. You are done
 
 ## Dependencies
 
@@ -21,3 +23,7 @@ SPM is a dependency manager. Just open project and wait a bit for packages synch
 ## UI Test
 
 Stable behavior is only guaranteed for iOS 14+
+
+## Screenhots
+
+![Screenshots](screenshots/screenshots.png)
