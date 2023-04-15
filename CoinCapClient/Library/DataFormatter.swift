@@ -37,20 +37,4 @@ enum DataFormatter {
 
         return output
     }
-
-    static func assetTitle(name: String, symbol: String) -> NSAttributedString {
-        let result = NSMutableAttributedString()
-
-        result.append(.init(string: (name + " "), attributes: [
-            .font: UIFont.systemFont(ofSize: 17, weight: .semibold),
-            .foregroundColor: Asset.Colors.textBody.color
-        ]))
-
-        result.append(.init(string: symbol, attributes: [
-            .font: UIFont.systemFont(ofSize: 17, weight: .semibold),
-            .foregroundColor: Asset.Colors.textCaptionB.color
-        ]))
-
-        return result
-    }
 }
